@@ -77,6 +77,9 @@
 <symbol id="icon-telegramm" viewBox="0 0 32 32">
 <path d="M32.005 2.667l-32.005 15.002 10.228 3.157 15.776-12.325-11.999 13.49 0.009 0.004-0.012-0.004v7.346l5.736-5.577 7.268 2.243 4.999-23.337z"></path>
 </symbol>
+<symbol id="icon-Burger" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
 
   </defs>
 </svg>

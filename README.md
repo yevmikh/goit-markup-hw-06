@@ -17,3 +17,7 @@ completion hw-04 01.09.23
 # goit-markup-hw-05
 
 completion hw-05 08.09.23
+
+# goit-markup-hw-06
+
+completion hw-06 15.09.23
