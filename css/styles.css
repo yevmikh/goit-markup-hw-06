@@ -176,6 +176,7 @@ img {
 .nav-item {
   display: none;
 }
+
 @media only screen and (min-width: 768px) {
   .nav-item {
     color: var(--header-text-color);
@@ -188,7 +189,6 @@ img {
     transition: color var(--transition-all);
   }
 }
-
 .address {
   display: none;
 }
@@ -210,7 +210,6 @@ img {
   .nav-item:focus {
     color: var(--active-color);
   }
-
   .address-item {
     color: var(--general-text-color);
 
@@ -241,7 +240,6 @@ img {
     bottom: -1px;
   }
 }
-
 @media only screen and (min-width: 1158px) {
   .address-flex {
     display: flex;
@@ -271,6 +269,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media only screen and (min-width: 428px) {
   .hero {
     background-image: linear-gradient(
@@ -280,6 +279,7 @@ img {
       url(../images/index/img9t.jpg);
   }
 }
+
 @media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
@@ -303,6 +303,7 @@ img {
       url(../images/index/img9@2xm.jpg);
   }
 }
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 428px),
   screen and (min-resolution: 192dpi) and (min-width: 428px) {
   .hero {
@@ -313,6 +314,7 @@ img {
       url(../images/index/img9@2xt.jpg);
   }
 }
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px) {
   .hero {
@@ -372,7 +374,6 @@ img {
 
   transition: background-color var(--transition-all);
 }
-
 .button-hero:hover,
 .button-hero:focus {
   background-color: var(--active-color);
@@ -383,6 +384,7 @@ img {
   flex-direction: column;
   gap: 72px;
 }
+
 @media only screen and (min-width: 768px) {
   .goal-flex {
     flex-direction: row;
@@ -390,6 +392,7 @@ img {
     gap: 24px;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .goal-flex {
     flex-wrap: nowrap;
@@ -421,24 +424,27 @@ img {
 
   transition: color var(--transition-all);
 }
-@media only screen and (min-width: 768px) {
-  .goal-subtitle-mobtab {
-    text-align: initial;
-  }
-}
-@media only screen and (min-width: 1158px) {
-  .goal-subtitle-mobtab {
-    display: none;
-  }
-}
 
 .mobile-cursive:hover,
 .mobile-cursive:focus {
   color: var(--active-color);
 }
+
 @media not (hover: hover) {
   .mobile-cursive:active {
     color: var(--active-color);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .goal-subtitle-mobtab {
+    text-align: initial;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .goal-subtitle-mobtab {
+    display: none;
   }
 }
 
@@ -446,6 +452,7 @@ img {
   display: none;
   margin-bottom: 8px;
 }
+
 @media only screen and (min-width: 1158px) {
   .goal-subtitle {
     display: initial;
@@ -491,6 +498,7 @@ img {
   color: var(--general-text-color);
   font-weight: var(--font-medium);
 }
+
 @media only screen and (min-width: 1158px) {
   .goal-text {
     font-weight: 400;
@@ -505,12 +513,12 @@ img {
 .services {
   display: none;
 }
+
 @media only screen and (min-width: 1158px) {
   .services {
     padding-bottom: var(--padding-120);
     display: block;
   }
-
   .services-flex {
     display: flex;
     gap: 24px;
@@ -531,6 +539,7 @@ img {
   flex-direction: column;
   gap: 72px;
 }
+
 @media only screen and (min-width: 768px) {
   .team-flex {
     flex-direction: row;
@@ -555,12 +564,14 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
 @media only screen and (min-width: 768px) {
   .team-list {
     width: calc((100% - 24px) / 2);
     margin: initial;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .team-list {
     width: calc((100% - 72px) / 3);
@@ -616,6 +627,7 @@ img {
   padding-top: 96px;
   padding-bottom: 96px;
 }
+
 @media only screen and (min-width: 1158px) {
   .paddding-standart {
     padding-top: var(--padding-120);
@@ -656,6 +668,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 @media only screen and (min-width: 768px) {
   .customers-flex {
     gap: 72px 24px;
@@ -674,6 +687,7 @@ img {
   width: calc((100% - 16px) / 2);
   height: 88px;
 }
+
 @media only screen and (min-width: 768px) {
   .customers-list {
     width: calc((100% - 48px) / 3);
@@ -723,6 +737,7 @@ img {
   padding-bottom: 96px;
   background-color: var(--header-text-color);
 }
+
 @media only screen and (min-width: 1158px) {
   .footer {
     padding-top: 100px;
@@ -740,6 +755,7 @@ img {
   flex-direction: column;
   text-align: center;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-flex {
     flex-direction: row;
@@ -759,6 +775,7 @@ img {
 .footer-left {
   margin: 0 auto;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-left {
     margin: initial;
@@ -776,6 +793,7 @@ img {
   text-align: initial;
   margin-bottom: 72px;
 }
+
 @media only screen and (min-width: 1158px) {
   .footer-text {
     margin-bottom: initial;
@@ -796,6 +814,7 @@ img {
 .footer-social-flex {
   margin: 0 auto;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-social-flex {
     margin: initial;
@@ -881,6 +900,7 @@ img {
     margin-bottom: initial;
   }
 }
+
 .footer-subscribtion-input:hover {
   outline: 1px solid var(--ligh-white);
 }
@@ -958,12 +978,14 @@ img {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+
 @media only screen and (min-width: 768px) {
   .portfolio-section {
     padding-top: 64px;
     padding-bottom: 96px;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .portfolio-section {
     padding-top: 100px;
@@ -977,12 +999,14 @@ img {
   flex-wrap: wrap;
   margin-bottom: 48px;
 }
+
 @media only screen and (min-width: 768px) {
   .portfolio-button-flex {
     justify-content: center;
     margin-bottom: 64px;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .portfolio-button-flex {
     margin-bottom: 72px;
@@ -994,6 +1018,7 @@ img {
   flex-direction: column;
   gap: 48px;
 }
+
 @media only screen and (min-width: 768px) {
   .portfolio-table {
     flex-direction: row;
@@ -1001,6 +1026,7 @@ img {
     gap: 72px 24px;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .portfolio-table {
     gap: 48px 24px;
@@ -1010,12 +1036,14 @@ img {
 .portfolio-table-list {
   margin: 0 auto;
 }
+
 @media only screen and (min-width: 768px) {
   .portfolio-table-list {
     width: calc((100% - 24px) / 2);
     margin: initial;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .portfolio-table-list {
     width: calc((100% - 48px) / 3);
@@ -1118,6 +1146,7 @@ img {
 
   transition: transform var(--transition-all);
 }
+
 @media only screen and (min-width: 768px) {
   .modal {
     width: 408px;
@@ -1385,12 +1414,6 @@ img {
 @media not (hover: hover) {
   .burger-icon:active {
     stroke: var(--active-color);
-  }
-}
-
-@media (min-width: 768px) {
-  .modal-button {
-    display: none;
   }
 }
 
