@@ -102,7 +102,7 @@ img {
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px dashed rgba(8, 109, 55, 0.889);
+  /* outline: 2px dashed rgba(8, 109, 55, 0.889); */
 }
 
 @media only screen and (min-width: 768px) {
@@ -287,9 +287,15 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/index/img9.jpg);
+
+    max-width: 1440px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1440px;
   }
 }
 
@@ -382,20 +388,20 @@ img {
 .goal-flex {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 72px 24px;
 }
 
 @media only screen and (min-width: 768px) {
   .goal-flex {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .goal-flex {
     flex-wrap: nowrap;
+    gap: 24px;
   }
 }
 
@@ -1504,4 +1510,6 @@ img {
 .mobile-modal-button {
   border: 1px solid rgba(46, 47, 66, 0.1);
   background-color: #fbfbff;
+}
+.aaa {
 }
